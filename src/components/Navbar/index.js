@@ -1,6 +1,14 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { Nav, NavbarContainer, NavLogo } from './NavbarElements';
+import {
+  Nav,
+  NavbarContainer,
+  NavLogo,
+  MobileIcon,
+  NavMenu,
+  NavItem,
+  NavLinks,
+} from './NavbarElements';
 
 const Navbar = () => {
   return (

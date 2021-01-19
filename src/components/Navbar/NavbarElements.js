@@ -53,6 +53,7 @@ export const MobileIcon = styled.div`
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
+    color: #fff;
   }
 `;
 
@@ -68,7 +69,7 @@ export const NavMenu = styled.div`
   }
 `;
 
-export const NacItem = styled.div`
+export const NavItem = styled.div`
   height: 80px;
 `;
 

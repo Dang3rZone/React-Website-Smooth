@@ -1,6 +1,5 @@
 import React from 'react';
 import { FaBars } from 'react-icons/fa';
-import { NavLink } from 'react-router-dom';
 import {
   Nav,
   NavbarContainer,
@@ -13,13 +12,13 @@ import {
   NavBtnLink,
 } from './NavbarElements';
 
-const Navbar = () => {
+const Navbar = ({ toggle }) => {
   return (
     <>
       <Nav>
         <NavbarContainer>
           <NavLogo to="/">Euro</NavLogo>
-          <MobileIcon>
+          <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
           <NavMenu>

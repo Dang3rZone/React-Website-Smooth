@@ -10,7 +10,7 @@ export const homeObjOne = {
     'Get access to more real life virtual machines with our pro version!',
   buttonLabel: 'Get started',
   imgStart: false,
-  img: require('../../images/svg-2.svg').default,
+  img: require('../../images/svg-9.svg').default,
   alt: 'Hacker',
   dark: true,
   primary: true,

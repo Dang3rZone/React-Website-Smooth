@@ -40,8 +40,8 @@ const InfoSection = ({
             <Column1>
               <TextWrapper>
                 <TopLine>{topLine}</TopLine>
-                <Heading lighttext={lightText}>{headline}</Heading>
-                <Subtitle darktext={darkText}>{description}</Subtitle>
+                <Heading lightText={lightText}>{headline}</Heading>
+                <Subtitle darkText={darkText}>{description}</Subtitle>
                 <BtnWrap>
                   <Button
                     to="home"
